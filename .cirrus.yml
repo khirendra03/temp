@@ -1,0 +1,55 @@
+env:
+    MANIFEST: https://github.com/ProjectBlaze/manifest.git
+    MANIFEST_BRANCH: 13
+    DEVICE: X01BD
+    OEM: asus
+    DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b 13-4.19
+    #DT_LINK: https://github.com/VoltageOS-Devices/android_device_asus_X01BD.git -b 13
+    DT_PATH: device/$OEM/$DEVICE
+    CM_LINK: https://github.com/khirendra03/android_device_asus_sdm660-common.git -b 13-4.19
+    #CM_LINK: https://github.com/ArrowOS-Devices/android_device_asus_sdm660-common.git -b arrow-13.0
+    CM_PATH: device/$OEM/sdm660-common
+    #VT_LINK: https://github.com/khirendra03/proprietary_vendor_asus.git -b 13
+    VT_LINK: https://github.com/Asus-Max-Pro-M2/proprietary_vendor_asus.git -b thirteen-4.19
+    #VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_asus_sdm660.git -b arrow-13.0
+    VT_PATH: vendor/$OEM
+    KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
+    #KT_LINK: https://github.com/khirendra03/android_kernel_asus_X01BD.git -b arrow-12.0
+    KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
+   # KT_LINK: https://github.com/LineageOS/android_kernel_asus_sdm660 -b lineage-19.1
+    PLATFORM: msm8998
+    KT_PATH: kernel/$OEM/sdm660
+    # EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
+    LUNCH_COMBO: voltage_X01BD-userdebug
+    TARGET: bacon
+    OUTPUT: voltage*.zip
+
+    #testy
+        
+    # Not Recommended to Change
+    SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
+    CCACHE_SIZE: 30G
+    CCACHE_DIR: $HOME/work/.ccache
+    J_VAL: 16
+
+    # Cirrus Specific Vars (Do *NOT* Change)
+    CIRRUS_SHELL: bash
+
+task:
+  name: "AOSP test"
+  trigger_type: manual
+  timeout_in: 120m
+  container:
+      image: ghcr.io/sushrut1101/docker:latest
+      cpu: 8
+      memory: 32G
+
+  Sync_script:
+      - bash sync.sh
+
+  Build_script:
+      - bash build.sh
+     
+  Upload_script:
+      - export TIMEOUT=43200 # Download Link Timeout (in Minutes)
+      - bash upload.sh
