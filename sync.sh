@@ -33,7 +33,7 @@ rm -rf hardware/qcom-caf/msm8998/media
 git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/msm8998/media
 
 rm -rf vendor/qcom/opensource/commonsys-intf/display
-git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf -b lineage-20.0 vendor/qcom/opensource/display-commonsys-intf
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 # Exit
 exit 0
