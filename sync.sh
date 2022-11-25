@@ -23,17 +23,17 @@ git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_h
 
 rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display
-git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/msm8998/display
+git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/sdm660/display
 
 rm -rf hardware/qcom-caf/msm8998/audio
-git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/msm8998/audio
+git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/audio
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_audio -b 13-msm8998 hardware/qcom-caf/msm8998/audio
 
 rm -rf hardware/qcom-caf/msm8998/media
-git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/msm8998/media
+git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/media
 
 rm -rf vendor/qcom/opensource/commonsys-intf/display
-git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 # Exit
 exit 0
