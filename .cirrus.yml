@@ -1,9 +1,9 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git
+    MANIFEST: https://github.com/ProjectBlaze/manifest.git
     MANIFEST_BRANCH: 13
     DEVICE: X01BD
     OEM: asus
-    DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b 13-4.19
+    DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b test-4.19
     #DT_LINK: https://github.com/VoltageOS-Devices/android_device_asus_X01BD.git -b 13
     DT_PATH: device/$OEM/$DEVICE
     CM_LINK: https://github.com/khirendra03/android_device_asus_sdm660-common.git -b 13-4.19
@@ -20,9 +20,9 @@ env:
     PLATFORM: msm8998
     KT_PATH: kernel/$OEM/sdm660
     # EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
-    LUNCH_COMBO: voltage_X01BD-userdebug
+    LUNCH_COMBO: blaze_X01BD-userdebug
     TARGET: bacon
-    OUTPUT: voltage*.zip
+    OUTPUT: blaze*.zip
 
     #testy
         
