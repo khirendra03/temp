@@ -13,7 +13,7 @@ env:
     VT_LINK: https://github.com/Asus-Max-Pro-M2/proprietary_vendor_asus.git -b thirteen-4.19
     #VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_asus_sdm660.git -b arrow-13.0
     VT_PATH: vendor/$OEM
-    KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
+    #KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
     #KT_LINK: https://github.com/khirendra03/android_kernel_asus_X01BD.git -b arrow-12.0
     KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
    # KT_LINK: https://github.com/LineageOS/android_kernel_asus_sdm660 -b lineage-19.1
