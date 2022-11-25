@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ProjectBlaze/manifest.git
+    MANIFEST: https://github.com/VoltageOS/manifest.git
     MANIFEST_BRANCH: 13
     DEVICE: X01BD
     OEM: asus

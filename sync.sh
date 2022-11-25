@@ -21,8 +21,8 @@ git clone --depth=1 $KT_LINK $KT_PATH
 # clang 14.0.1
 git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b -b master prebuilts/clang/host/linux-x86/clang-r437112b
 
-#rm -rf vendor/qcom/opensource/display
-#git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display.git -b lineage-19.0 vendor/qcom/opensource/display
+rm -rf vendor/qcom/opensource/display
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display.git -b lineage-20.0 vendor/qcom/opensource/display
 
 rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display
