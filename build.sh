@@ -21,8 +21,9 @@ lunch ${LUNCH_COMBO} || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 
 # Build the Code
 
-
-brunch X01BD
+make kernel
+make display
+#brunch X01BD
 #if [ -z "$J_VAL" ]; then
 #    mka -j$(nproc --all) $TARGET || { echo "ERROR: Build Failed!" && exit 1; }
 #elif [ "$J_VAL"="0" ]; then
