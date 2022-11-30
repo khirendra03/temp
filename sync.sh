@@ -19,7 +19,8 @@ git clone --depth=1 $VT_LINK $VT_PATH
 git clone --depth=1 $KT_LINK $KT_PATH
 
 # clang 14.0.1
-git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b -b master prebuilts/clang/host/linux-x86/clang-r437112b
+#git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b -b master prebuilts/clang/host/linux-x86/clang-r437112b
+git clone --depth=1 https://gitlab.com/varunhardgamer/trb_clang.git -b 14 prebuilts/clang/host/linux-x86/trb_clang
 
 rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display

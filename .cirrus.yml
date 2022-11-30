@@ -16,7 +16,7 @@ env:
     #KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
     #KT_LINK: https://github.com/khirendra03/android_kernel_asus_X01BD.git -b arrow-12.0
     KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
-   # KT_LINK: https://github.com/LineageOS/android_kernel_asus_sdm660 -b lineage-19.1
+   
     PLATFORM: msm8998
     KT_PATH: kernel/$OEM/sdm660
     # EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
