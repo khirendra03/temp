@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/ProjectBlaze/manifest.git
-    MANIFEST_BRANCH: 13
+    MANIFEST: https://github.com/PixelExperience/manifest.git
+    MANIFEST_BRANCH: thirteen
     DEVICE: X01BD
     OEM: asus
     DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b test-4.19
