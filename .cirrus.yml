@@ -20,9 +20,9 @@ env:
     PLATFORM: msm8998
     KT_PATH: kernel/$OEM/sdm660
     # EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
-    LUNCH_COMBO: blaze_X01BD-userdebug
+    LUNCH_COMBO: aosp_X01BD-userdebug
     TARGET: bacon
-    OUTPUT: blaze*.zip
+    OUTPUT: p*.zip
 
     #testy
         
