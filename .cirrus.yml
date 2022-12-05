@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/PixelExperience/manifest.git
-    MANIFEST_BRANCH: thirteen
+    MANIFEST: https://github.com/VoltageOS/manifest.git
+    MANIFEST_BRANCH: 13
     DEVICE: X01BD
     OEM: asus
     DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b test-4.19
@@ -27,9 +27,9 @@ env:
     PLATFORM: msm8998
     KT_PATH: kernel/$OEM/sdm660
     # EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
-    LUNCH_COMBO: aosp_X01BD-userdebug
+    LUNCH_COMBO: voltage_X01BD-eng
     TARGET: bacon
-    OUTPUT: p*.zip
+    OUTPUT: v*.zip
 
     #testy
         
