@@ -11,7 +11,9 @@ else
 fi
 
 # Run the Extra Command
-$EXTRA_CMD
+#$EXTRA_CMD
+
+cp -af hardware/qcom-caf/common/os_pickup.bp hardware/qcom-caf/sdm660/Android.bp && cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/sdm660/Android.mk
 
 # Prepare the Build Environment
 source build/envsetup.sh
