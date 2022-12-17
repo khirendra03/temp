@@ -39,7 +39,7 @@ git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_media -b t
 
 #rm -rf vendor/qcom/opensource/commonsys-intf/display
 #git clone https://github.com/NerdZ3ns/android_vendor_qcom_opensource_display-commonsys-intf.git -b arrow-13.0 vendor/qcom/opensource/commonsys-intf/display
-#git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 # Exit
 exit 0
