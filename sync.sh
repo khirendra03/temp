@@ -23,17 +23,17 @@ git clone --depth=1 $KT_LINK $KT_PATH
 #git clone --depth=1 https://github.com/nerdprojectorg/SDClang.git -b 14 prebuilts/clang/host/linux-x86/clang-sdllvm
 git clone --depth=1 https://gitlab.com/varunhardgamer/trb_clang.git -b 14 prebuilts/clang/host/linux-x86/trb_clang
 
-rm -rf hardware/qcom-caf/msm8998/display
+#rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display
 #git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/sdm660/display
 git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_display.git -b tm android_hardware_qcom-caf_sdm660_display
 
-rm -rf hardware/qcom-caf/msm8998/audio
+#rm -rf hardware/qcom-caf/msm8998/audio
 #git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/audio
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_audio -b 13-msm8998 hardware/qcom-caf/msm8998/audio
 git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_audio.git -b tm android_hardware_qcom-caf_sdm660_audio
 
-rm -rf hardware/qcom-caf/msm8998/media
+#rm -rf hardware/qcom-caf/msm8998/media
 #git clone https://github.com/khirendra03/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/media
 git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_media.giy -b tm android_hardware_qcom-caf_sdm660_media
 
