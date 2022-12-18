@@ -7,8 +7,8 @@ env:
     #DT_LINK: https://github.com/VoltageOS-Devices/android_device_asus_X01BD.git -b 13
     DT_PATH: device/$OEM/$DEVICE
     
-    CM_LINK: https://github.com/khirendra03/android_device_asus_sdm660-common.git -b 13-4.19
-    #CM_LINK: https://github.com/nerdprojectorg/android_device_asus_sdm660-common.git -b rebase
+    #CM_LINK: https://github.com/khirendra03/android_device_asus_sdm660-common.git -b 13-4.19
+    CM_LINK: https://github.com/nerdprojectorg/android_device_asus_sdm660-common.git -b rebase
     #CM_LINK: https://github.com/ArrowOS-Devices/android_device_asus_sdm660-common.git -b arrow-13.0
     CM_PATH: device/$OEM/sdm660-common
     
@@ -20,8 +20,8 @@ env:
     
     #KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
     #KT_LINK: https://github.com/khirendra03/android_kernel_asus_X01BD.git -b arrow-12.0
-    KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
-    #KT_LINK: https://github.com/nerdprojectorg/android_kernel_asus_sdm660.git -b tm
+    #KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
+    KT_LINK: https://github.com/nerdprojectorg/android_kernel_asus_sdm660.git -b tm
    
     PLATFORM: sdm660
     KT_PATH: kernel/$OEM/sdm660
