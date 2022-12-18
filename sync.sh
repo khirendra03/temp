@@ -25,8 +25,8 @@ git clone --depth=1 https://gitlab.com/varunhardgamer/trb_clang.git -b 14 prebui
 
 #rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display
-git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/sdm660/display
-#git clone https://github.com/khirendra03/android_hardware_qcom-caf_sdm660_display.git -b tm hardware/qcom-caf/sdm660/display
+#git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/sdm660/display
+git clone https://github.com/khirendra03/android_hardware_qcom-caf_sdm660_display.git -b tm hardware/qcom-caf/sdm660/display
 
 #rm -rf hardware/qcom-caf/msm8998/audio
 git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/audio
