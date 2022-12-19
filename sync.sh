@@ -26,8 +26,8 @@ git clone --depth=1 https://gitlab.com/varunhardgamer/trb_clang.git -b 14 prebui
 #rm -rf hardware/qcom-caf/msm8998/display
 #git clone https://github.com/VoltageOS-staging/hardware_qcom_display -b 13-msm8998 hardware/qcom-caf/msm8998/display
 #git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_display -b thirteen hardware/qcom-caf/sdm660/display
-git clone https://github.com/khirendra03/android_hardware_qcom-caf_sdm660_display.git -b tm hardware/qcom-caf/sdm660/display
-#git clone https://github.com/SDM660-lavender/android_hardware_qcom_display.git -b 13-caf_4.19 hardware/qcom-caf/sdm660/display
+#git clone https://github.com/khirendra03/android_hardware_qcom-caf_sdm660_display.git -b tm hardware/qcom-caf/sdm660/display
+git clone https://github.com/SDM660-lavender/android_hardware_qcom_display.git -b 13-caf_4.19 hardware/qcom-caf/sdm660/display
 
 #rm -rf hardware/qcom-caf/msm8998/audio
 #git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_media -b thirteen hardware/qcom-caf/sdm660/audio
@@ -40,9 +40,9 @@ git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_aud
 #git clone https://github.com/SDM660-lavender/android_hardware_qcom_media.git -b 13-caf-sdm660 hardware/qcom-caf/sdm660/media
 git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_media.git -b tm hardware/qcom-caf/sdm660/media
 
-#rm -rf vendor/qcom/opensource/commonsys-intf/display
+rm -rf vendor/qcom/opensource/commonsys-intf/display
 #git clone https://github.com/NerdZ3ns/android_vendor_qcom_opensource_display-commonsys-intf.git -b arrow-13.0 vendor/qcom/opensource/commonsys-intf/display
-#git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 # Exit
 exit 0
