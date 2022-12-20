@@ -44,5 +44,7 @@ git clone https://github.com/SDM660-lavender/android_hardware_qcom_media.git -b 
 #git clone https://github.com/NerdZ3ns/android_vendor_qcom_opensource_display-commonsys-intf.git -b arrow-13.0 vendor/qcom/opensource/commonsys-intf/display
 #git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
+rm -rf hardware/google/pixel/kernel_headers/Android.bp
+
 # Exit
 exit 0
