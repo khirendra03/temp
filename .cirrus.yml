@@ -13,8 +13,8 @@ env:
     CM_PATH: device/$OEM/sdm660-common
     
     #VT_LINK: https://github.com/khirendra03/proprietary_vendor_asus.git -b 13
-    VT_LINK: https://github.com/Asus-Max-Pro-M2/proprietary_vendor_asus.git -b thirteen-4.19
-    #VT_LINK: https://github.com/nerdprojectorg/proprietary_vendor_asus.git -b rebase
+    #VT_LINK: https://github.com/Asus-Max-Pro-M2/proprietary_vendor_asus.git -b thirteen-4.19
+    VT_LINK: https://github.com/nerdprojectorg/proprietary_vendor_asus.git -b rebase
     #VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_asus_sdm660.git -b arrow-13.0
     VT_PATH: vendor/$OEM
     

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install libncurses5-dev libncursesw5-dev
+
 # Make the Directory if it doesn't exist
 mkdir -p $SYNC_PATH
 
@@ -45,7 +47,6 @@ git clone https://github.com/Asus-Max-Pro-M2/hardware_qcom-caf_sdm660_media -b t
 #git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
-sudo apt-get install libncurses5-dev libncursesw5-dev
 
 # Exit
 exit 0
