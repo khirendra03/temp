@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt-get install libncurses5-dev libncursesw5-dev
+sudo dnf install ncurses
 
 # Make the Directory if it doesn't exist
 mkdir -p $SYNC_PATH
@@ -47,6 +48,8 @@ git clone https://github.com/nerdprojectorg/android_hardware_qcom-caf_sdm660_med
 #git clone https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf.git -b lineage-20.0 vendor/qcom/opensource/commonsys-intf/display
 
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
+sudo apt-get install libncurses5-dev libncursesw5-
+sudo dnf install ncurses
 
 # Exit
 exit 0
