@@ -14,6 +14,12 @@ fi
 #$EXTRA_CMD
 
 #cp -af hardware/qcom-caf/common/os_pickup.bp hardware/qcom-caf/sdm660/Android.bp && cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/sdm660/Android.mk
+echo $LD_LIBRARY_PATH
+echo "end 1 zero"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/library
+echo "end 2 zero"
+find / -name libncursed.so.5
+
 
 # Prepare the Build Environment
 source build/envsetup.sh
