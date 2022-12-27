@@ -25,7 +25,7 @@ env:
    
     PLATFORM: sdm660
     KT_PATH: kernel/$OEM/sdm660
-    EXTRA_CMD: "cp -af hardware/qcom-caf/common/os_pickup.bp hardware/qcom-caf/sdm660/Android.bp && cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/sdm660/Android.mk"
+    #EXTRA_CMD: "cp -af hardware/qcom-caf/common/os_pickup.bp hardware/qcom-caf/sdm660/Android.bp && cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/sdm660/Android.mk"
     LUNCH_COMBO: voltage_X01BD-eng
     TARGET: bacon
     OUTPUT: v*.zip
