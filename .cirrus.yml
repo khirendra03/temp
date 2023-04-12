@@ -1,27 +1,27 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git
-    MANIFEST_BRANCH: 13
+    MANIFEST: https://github.com/Evolution-X/manifest.git
+    MANIFEST_BRANCH: ten
     DEVICE: X01BD
     OEM: asus
-    DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b test-4.19
-    #DT_LINK: https://github.com/VoltageOS-Devices/android_device_asus_X01BD.git -b 13
+    #DT_LINK: https://github.com/khirendra03/android_device_asus_X01BD.git -b test-4.19
+    DT_LINK: https://github.com/ArrowOS-Devices/android_device_asus_X01BD.git -b arrow-10.0
     DT_PATH: device/$OEM/$DEVICE
     
     #CM_LINK: https://github.com/khirendra03/android_device_asus_sdm660-common.git -b 13-4.19
-    CM_LINK: https://github.com/nerdprojectorg/android_device_asus_sdm660-common.git -b rebase
+    #CM_LINK: .git -b arrow-10.0
     #CM_LINK: https://github.com/ArrowOS-Devices/android_device_asus_sdm660-common.git -b arrow-13.0
-    CM_PATH: device/$OEM/sdm660-common
+    #CM_PATH: device/$OEM/sdm660-common
     
     #VT_LINK: https://github.com/khirendra03/proprietary_vendor_asus.git -b 13
     #VT_LINK: https://github.com/Asus-Max-Pro-M2/proprietary_vendor_asus.git -b thirteen-4.19
-    VT_LINK: https://github.com/nerdprojectorg/proprietary_vendor_asus.git -b rebase
+    VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_asus_sdm660.git -b arrow-10.0
     #VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_asus_sdm660.git -b arrow-13.0
     VT_PATH: vendor/$OEM
     
     #KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-13.0
     #KT_LINK: https://github.com/khirendra03/android_kernel_asus_X01BD.git -b arrow-12.0
     #KT_LINK: https://github.com/Asus-Max-Pro-M2/kernel_asus_sdm660.git -b thirteen-4.19
-    KT_LINK: https://github.com/nerdprojectorg/android_kernel_asus_sdm660.git -b tm
+    KT_LINK: https://github.com/ArrowOS-Devices/android_kernel_asus_X01BD.git -b arrow-10.0
    
     PLATFORM: sdm660
     KT_PATH: kernel/$OEM/sdm660
